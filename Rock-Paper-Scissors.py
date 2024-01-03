@@ -22,7 +22,7 @@ while player == False:
         else:
             print("You win!", player, "cut", computer)
     else:
-        print("You have quit the game!")
+        print("Completed !!")
         break
     player = False
     computer = t[randint(0,2)]
